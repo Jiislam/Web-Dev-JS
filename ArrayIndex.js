@@ -1,4 +1,4 @@
-var newArray = [4,5,6,1,23,8,9,1,4];
+var newArray = [4,5,6,1,23,8,9,1,4,23];
  // get element by index
 
 // console.log(newArray[1], newArray[5], newArray[0]);
@@ -13,6 +13,6 @@ console.log(newArray);
 
 //  get the index number of an array element
 var position_index = newArray.indexOf(23);
-var position_index1 = newArray.indexOf(454);
+var position_index1 = newArray.lastIndexOf(23);
 
 console.log(position_index, position_index1);
